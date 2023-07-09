@@ -9,11 +9,15 @@ To install and run the Note Taking App locally, follow these steps:
 
 1. Clone the repository to your local machine:
 
-```git clone https://github.com/nimiology/savile.git```
+```
+git clone https://github.com/nimiology/savile.git
+```
 
 2. Navigate to the project directory:
 
-``cd note-taking-app``
+```
+cd note-taking-app
+```
 
 3. Create and activate a virtual environment (optional, but recommended):
 
@@ -24,15 +28,21 @@ source env/bin/activate
 
 4. Install the required dependencies:
 
-``pip install -r requirements.txt``
+```
+pip install -r requirements.txt
+```
 
 5. Set up the database:
 
-``python manage.py migrate``
+```
+python manage.py migrate
+```
 
 6. Start the development server:
 
-``python manage.py runserver``
+```
+python manage.py runserver
+```
 
 7. Access the application by visiting `http://localhost:8000` in your web browser.
 
