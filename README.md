@@ -1,4 +1,4 @@
-_# Project Name: Note Taking App
+# Project Name: Note Taking App
 
 This project is a web-based note-taking application that allows users to add and access their notes from any device with
 internet access. The application provides a user-friendly interface to create, view, and manage notes.
@@ -9,7 +9,7 @@ To install and run the Note Taking App locally, follow these steps:
 
 1. Clone the repository to your local machine:
 
-```git clone https://github.com/nimiologyy/savile.git```
+```git clone https://github.com/nimiology/savile.git```
 
 2. Navigate to the project directory:
 
@@ -53,7 +53,7 @@ source env/bin/activate
 ## Contributing
 
 Contributions to this project are welcome. If you encounter any bugs, issues, or have suggestions for improvements,
-please open an issue on the [GitHub repository](https://github.com/nimiologyy/savile/issues).
+please open an issue on the [GitHub repository](https://github.com/nimiology/savile/issues).
 
 If you would like to contribute to the project, follow these steps:
 
