@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All Notes</title>
+</head>
+<body>
+	<h1>All Notes</h1>
+	{% for note in notes %}
+		<div>
+			<a href="{% url 'note:note_detail' note.pk %}"><h2>{{ note.title }}</h2></a>
+		</div>
+		<hr>
+	{% endfor %}
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ note.title }}</title>
+</head>
+<body>
+	<h1>Note Details</h1>
+	<p><strong>Title:</strong> {{ note.title }}</p>
+	<p><strong>Description:</strong> {{ note.description|linebreaksbr }}</p>
+	{% if note.file %}
+		<p><strong>File:</strong> <a href="{{ note.file.url }}">{{ note.file.name }}</a></p>
+	{% else %}
+		<p><strong>File:</strong> No file uploaded.</p>
+	{% endif %}
+</body>
+</html>
